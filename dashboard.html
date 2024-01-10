@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+
+    <!-- Add the Popin font link here -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <!-- Add Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="dashboard-container">
+        <div class="dashboard-sidebar">
+            <div>
+                <div class="dashboard-logo-div"><img src="" alt="Logo" /></div>
+                <div class="dashboard-sidebar-name-img">
+                    <img src="Images/favicon.ico" alt="howard">
+                    <div>
+                        <h3>Esther Howard</h3>
+                        <p>est.how@gmail.com</p>
+                    </div>
+                </div>
+                <div class="dashboard-sidebar-menu">
+                    <div class="dashboard-sidebar-menu-sub">
+                        <img src="Images/favicon.ico" alt="howard">
+                        <h4>Dashboard</h4>
+                    </div>
+                    <div class="dashboard-sidebar-menu-sub">
+                        <img src="Images/favicon.ico" alt="howard">
+                        <h4>Profile</h4>
+                    </div>
+                </div>
+                <div>
+                    <div class="dashboard-sidebar-menu-sub">
+                        <img src="Images/favicon.ico" alt="howard">
+                        <h4>Settings</h4>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="dashboard-sidebar-menu-sub">
+                    <img src="Images/favicon.ico" alt="howard">
+                    <h4>Log Out</h4>
+                </div>
+            </div>
+        </div>
+        <div class="dashboard-content">
+            <!-- Search Row -->
+            <div class="dashboard-content-search-bar">
+                <div class="search-input">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search Case">
+                </div>
+                <img src="Images/favicon.ico" alt="notification">
+            </div>
+            <!-- Save Search Button Row-->
+            <div class="dashboard-content-search-btns">
+                <div class="search-btns-first">
+                    <select>
+                        <option value="arrests">Arrests</option>
+                    </select>
+                    <a href="" class="search-btns-first-link">List</a>
+                    <a href="" class="search-btns-first-schedule">Schedule</a>
+                </div>
+                <div class="search-btns-second">
+                    <p>Found <span class="cases-color-text">329 cases</span></p>
+                    <button class="save-search-btn">Save Search</button>
+                </div>
+            </div>
+            <!-- Change period row -->
+            <div class="change-period-div">
+                <p>Change Period</p>
+                <select>
+                    <option value="24 hours">24 hours</option>
+                </select>
+            </div>
+            <!-- Main Table -->
+            <div class="main-table">
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Address</th>
+                        <th>Date</th>
+                        <th>Agency</th>
+                        <th>Charge</th>
+                        <th>Type</th>
+                        <th class="custom-th">Lawyer</th>
+                    </tr>
+                    <tr>
+                        <td class="table-td-name">Steven, James</br>Naehuau Finley</td>
+                        <td class="table-td-name">58</td>
+                        <td class="custom-td">Boise, ID</td>
+                        <td class="custom-td">Mon 12/26</td>
+                        <td class="custom-td">Meridian City</br>Policy Department</td>
+                        <td class="custom-td">Driving Under</br>the Influence</td>
+                        <td class="custom-td">Criminial charge</td>
+                        <td class="custom-td-btn"><button class="table-hired-btn">Kristin Watson</button></td>
+                    </tr>
+                    <tr>
+                        <td>Steven, James</br>Naehuau Finley</td>
+                        <td>58</td>
+                        <td class="custom-td">Boise, ID</td>
+                        <td class="custom-td">Mon 12/26</td>
+                        <td class="custom-td">Meridian City</br>Policy Department</td>
+                        <td class="custom-td">Driving Under</br>the Influence</td>
+                        <td class="custom-td">Criminial charge</td>
+                        <td class="custom-td-btn"><button class="table-not-hired-btn">Not Hired</button></td>
+                    </tr>
+                    <tr>
+                        <td>Steven, James</br>Naehuau Finley</td>
+                        <td>58</td>
+                        <td class="custom-td">Boise, ID</td>
+                        <td class="custom-td">Mon 12/26</td>
+                        <td class="custom-td">Meridian City</br>Policy Department</td>
+                        <td class="custom-td">Driving Under</br>the Influence</td>
+                        <td class="custom-td">Criminial charge</td>
+                        <td class="custom-td-btn"><button class="table-hired-btn">Savannah Nguyen</button></td>
+                    </tr>
+                    <tr>
+                        <td>Steven, James</br>Naehuau Finley</td>
+                        <td>58</td>
+                        <td class="custom-td">Boise, ID</td>
+                        <td class="custom-td">Mon 12/26</td>
+                        <td class="custom-td">Meridian City</br>Policy Department</td>
+                        <td class="custom-td">Driving Under</br>the Influence</td>
+                        <td class="custom-td">Criminial charge</td>
+                        <td class="custom-td-btn"><button class="table-not-hired-btn">Not Hired</button></td>
+                    </tr>
+                    <tr>
+                        <td>Steven, James</br>Naehuau Finley</td>
+                        <td>58</td>
+                        <td class="custom-td">Boise, ID</td>
+                        <td class="custom-td">Mon 12/26</td>
+                        <td class="custom-td">Meridian City</br>Policy Department</td>
+                        <td class="custom-td">Driving Under</br>the Influence</td>
+                        <td class="custom-td">Criminial charge</td>
+                        <td class="custom-td-btn"><button class="table-not-hired-btn">Not Hired</button></td>
+                    </tr>
+                    <tr>
+                        <td>Steven, James</br>Naehuau Finley</td>
+                        <td>58</td>
+                        <td class="custom-td">Boise, ID</td>
+                        <td class="custom-td">Mon 12/26</td>
+                        <td class="custom-td">Meridian City</br>Policy Department</td>
+                        <td class="custom-td">Driving Under</br>the Influence</td>
+                        <td class="custom-td">Criminial charge</td>
+                        <td class="custom-td-btn"><button class="table-not-hired-btn">Not Hired</button></td>
+                    </tr>
+                    <tr>
+                        <td>Steven, James</br>Naehuau Finley</td>
+                        <td>58</td>
+                        <td class="custom-td">Boise, ID</td>
+                        <td class="custom-td">Mon 12/26</td>
+                        <td class="custom-td">Meridian City</br>Policy Department</td>
+                        <td class="custom-td">Driving Under</br>the Influence</td>
+                        <td class="custom-td">Criminial charge</td>
+                        <td class="custom-td-btn"><button class="table-not-hired-btn">Not Hired</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
